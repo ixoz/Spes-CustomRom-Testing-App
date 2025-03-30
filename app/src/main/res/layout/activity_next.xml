@@ -6,15 +6,18 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <Spinner
-        android:id="@+id/deviceSpinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/btnNext"
+    <TextView
+        android:id="@+id/deviceTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Next"
+        android:textSize="18sp"
+        android:text="Selected Device:"/>
+
+    <CheckBox
+        android:id="@+id/nfcCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable NFC"
+        android:visibility="gone"
         android:layout_marginTop="16dp"/>
 </LinearLayout>
