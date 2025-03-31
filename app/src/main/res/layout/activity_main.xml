@@ -6,10 +6,17 @@
     android:gravity="center"
     android:padding="16dp">
 
-    <Spinner
-        android:id="@+id/deviceSpinner"
+    <TextView
+        android:text="Enter Your Spes Varient"
+        android:textSize="18dp"
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/deviceSpinner"
+        android:layout_width="175dp"
+        android:layout_height="58dp" />
 
     <Button
         android:id="@+id/btnNext"
